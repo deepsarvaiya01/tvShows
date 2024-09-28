@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css or specific CSS file */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bg-gray-900 {
+    background-color: #1a202c; /* Tailwind gray-900 */
+  }
+  
+  .text-gray-200 {
+    color: #edf2f7; /* Tailwind gray-200 */
+  }
+  
+  /* Add any other necessary styles here */
+  
