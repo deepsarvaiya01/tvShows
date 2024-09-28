@@ -47,7 +47,7 @@ const Schedule = () => {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-9">
       <h1 className="text-2xl font-bold mb-4">TV Schedule</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
         {schedule.map((show) => (
