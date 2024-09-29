@@ -10,7 +10,7 @@ const HDEntAnimation = () => {
 
     const timer = setTimeout(() => {
       setShowAnimation(false);
-    }, 3000); // Show animation for 3 seconds
+    }, 1000); // Show animation for 3 seconds
 
     return () => clearTimeout(timer);
   }, []);
